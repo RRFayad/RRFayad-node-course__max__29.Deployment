@@ -63,6 +63,17 @@
     - It makes everything lighter
 
 455. Setting Up Request Logging
-    - 
+
+    * It will create a document for controlling all the logs (usually it won't be needed)
+    - npm install morgan
+    
+    -const morgan = require("morgan");
+
+    - const accessLogStream = fs.createWriteStream(
+        path.join(__dirname, "access.log"),
+        { flags: "a" } // a stand for append (which means the logs will be appended)
+    );
+
+    app.use(morgan("combined", { stream: accessLogStream }));
 
 
