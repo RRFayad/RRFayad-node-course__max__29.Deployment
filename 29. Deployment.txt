@@ -34,3 +34,35 @@
 
     - Use SSL/TLS
         - Encryp data
+
+451. Using Environment Variables
+
+    - Max showed ow to set up and create the env variables;
+        - He showd on the package.json file
+
+    - For the port:
+        process.env.PORT || 3000
+
+453. Setting Secure Response Headers with Helmet
+
+    - npm install helmet
+
+    - Just set it as the 1s middleware
+
+    - It just add some secure headers to the application
+
+454. Compressing Assets
+
+    - npm install compression
+
+    - const compression = require("compression");
+
+    - app.use(compression())
+        * Just after the helmet
+
+    - It makes everything lighter
+
+455. Setting Up Request Logging
+    - 
+
+
