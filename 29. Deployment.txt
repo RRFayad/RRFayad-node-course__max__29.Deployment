@@ -1,0 +1,36 @@
+448. Module Introduction
+    - Preparing for Deployment
+    - Steps & Config
+    - Security
+
+449. Deploying Different Kinds of Apps
+    - Server-Side Rendered Views
+        HTML
+        Templating Engines
+
+    - API's
+        Rest
+        GraphQL
+
+450. Deployment Preparations
+
+    - Environment Variable
+
+    - Use Production API Keys
+        - Instead of testing / development API key
+    
+
+    - Reduce Error Output Details to Users
+        - Don't send sensitive info to users
+
+    - Set Secure Response Headers
+        - Best Practices
+
+    - Add Asset Compression
+        - Reduce Response Size
+    
+    - Configure Logging
+        - To stay up to date about what's hapenning
+
+    - Use SSL/TLS
+        - Encryp data
